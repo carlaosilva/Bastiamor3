@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400&family=Rubik+Moonrocks&display=swap');
+header{
+    background-color: palevioletred;
+    background-position-x: right;
+    width: 100%;
+    background-size: 0;
+    font-family: 'Rubik Moonrocks';
+    text-align: center;
+    font-size: xx-large;
+    border-image-outset: 13cm;
+    background-image: 'imagens bastiamor/image.jpg';
+}
+body {
+    font-family: 'Heebo','Arial','Negrito';
+    background: pink;
+}
+.topnav{
+    background-color: rgba(163, 4, 78, 0.612);
+    overflow: hidden; /*se o terxto mnão couber esconde*/
+}
+.topnav a{
+    float: left; color: rgb(255, 240, 247);
+    text-align: center; padding: 16px;
+    text-decoration: none; font-size: 17px;
+}
+.topnav a:hover{
+    background-color: rgb(129, 7, 89); color: black;
+}
+
+.topnav a.ativo{
+    background-color: rgb(105, 6, 89); color: azure;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.container{
+    display: flex;
+}
+.coluna{
+    border: 1px solid #E0E0E0;
+    flex: 1;
+}
+
+.coluna .tabela {
+    margin-top: 50px;
+    margin-left: 43%;
+}
+
+label{
+    display: block;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.botao{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: rgba(238, 238, 247, 0.918);
+    background-color: #570437;
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+.botao:hover{
+opacity: 0.5;
+background-color: rgb(221, 58, 159);
+}
+.limpar{
+    background-color: #77244e;
+}
+fieldset {
+    width: 60%;
+    font-family: 'Heebo';
+}
+img {
+    width: 150px;
+    border-radius: 500px;
+    text-align: center;
+}
+th {
+    background-color: rgb(190, 8, 114);
+    color: #f2f7f4;
+}
+td, th {
+    vertical-align: middle;
+}
+table, th, td {
+    border: 1px solid black;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(68, 8, 33);
+    color: white;
+    text-align: center;
+}
